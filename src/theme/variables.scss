@@ -3,8 +3,11 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  // --ion-background-color:black;
+  // --ion-tabs-color:white;
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #dd2121;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -75,6 +78,12 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
+
+// .md div {
+//   // --ion-padding: 10rem;
+//   // --ion-margin-start: 20px;
+//   --ion-margin-end: 10rem;
+// }
 
 @media (prefers-color-scheme: dark) {
   /*
@@ -228,5 +237,10 @@
     --ion-tab-bar-background: #1f1f1f;
 
     --ion-card-background: #1e1e1e;
+
+    
   }
+
+  
 }
+

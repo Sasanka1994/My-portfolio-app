@@ -1,20 +1,46 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+<ion-header >
+  <ion-toolbar class="new-background-color">
+    <ion-title class="title-center">Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content class="ion-padding; content-background-color">
+  <div class="main">
+    <h3 style="color:#E6E6E1;">Welcome to Revin's portfolio </h3>
+    <p>This is the home page of Revin's, a software developer based in Canberra. Hello!!!</p>
+    <h4 style="color:#E6E6E1;">I like...</h4>
+    <ul>
+      <li>Angular</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
+      <li>MySQL</li>
+      <li>IONIC</li>
+      <li>Next.js</li>
+      <li>TypeScript</li>
+      <li>AWS</li>
+      <li>Linux</li>
+    </ul>
+    <h4 style="color:#E6E6E1;">I don't like...</h4>
+    <ul>
+      <li>Azure's UI. I prefer AWS. (But I can deal with it 😉)</li>
+      <li>Internet Explorer</li>
+      <li>Non-fan-forced ovens</li>
+    </ul>
+    <h4 style="color:#E6E6E1;">This looks like an "app"!!!</h4>
+    <p>What do you mean by "app" exactly? Regardless, this website looks the way it does because it's using 
+      Ionic Framework. It's probably overkill for this use case, and I may change it later, but I'm enjoying 
+      Ionic+angular recently.
+    </p>
+    <p>Also, this is running on NGINX in a Docker container, in AWS' Elastic Container Service!. Why Docker and AWS ECS? Docker is a
+      tool designed to make it easier to create, deploy and run applications by using containers. Thus containers allow to package up
+      an application with all of the part it needs and deploy it as one package. Furthermore AWS' ECS is a fully managed container 
+      orchestration service. From this I can make a module to learn CI/CD pipelines in hands on experience.
+    </p>
+    <p>I am planning to deploy my own automated Jenkins-based build porcess, too; Jenkins will be scanning my remote git repository
+      for changes,then if it finds any, builds and deploys the containerised application automatically, versioning it 
+      using per-environment logic and a date-time string. The current version is (need to setup/ still on under construction).
+    </p>
   </div>
 </ion-content>
+
+

@@ -24,3 +24,67 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+// this for home page setup
+.plt-desktop .main {
+  padding: 0.5rem;
+  margin-left: 32%;
+  padding-right: 35rem;
+  padding-top: 2.5rem;
+}
+
+// iphone padding
+.plt-iphone .main {
+  padding: 16px;
+}
+
+// android padding
+.plt-android .main {
+  padding: 16px;
+}
+
+.plt-desktop .title-center {
+  text-align: center;
+}
+
+.plt-android .title-center {
+  text-align: center;
+}
+
+
+.tab{
+  background-color: rgb(56, 53, 53);
+  color: white;
+}
+
+// ion-title {
+//   color: purple;
+//   font-size: 30px;
+// }
+
+// ion-toolbar {
+//   color: purple;
+//   background: black;
+// }
+.new-background-color{
+  --background: rgb(56, 53, 53);
+  color: white;
+}
+
+.content-background-color{
+  --background: black;
+  
+}
+
+.main {
+  color:#8C8D8B;
+}
+
+// ion-tab-bar{
+//   --color-selected: rgb(160, 19, 19) !important; 
+// }
+
+ion-tab-button{
+  --color-selected: rgb(160, 19, 19) !important; 
+}
+
