@@ -6,8 +6,9 @@ COPY . .
 CMD npm run build
 
 FROM nginx
-EXPOSE 8080
 COPY --from=BUILD /app/www /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
 
 # ## Build
 # FROM beevelop/ionic AS ionic
